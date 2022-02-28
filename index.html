@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="style.css" target="_blank">
+        </head>
+
+        <body>
+                <div id="searchContainer">
+                    <input class="searchControl" type="text" placeholder="City Name, or Latitude" id="primarySearchInput"></input>
+                    <input class="searchControl" type="text" placeholder="State or Longitude" id="secondarySearchInput"></input>
+                    <input class="searchControl" type="text" placeholder="Country or Zip" id="thirdSearchInput"></input>
+                    <button class="searchControl" id="searchBtn">Search</button>
+                </div>
+                <div id="weatherContainer">
+                    <div id="weatherDescription">
+                        <h1 id="cityHeader"></h1>
+                        <h1 id="countryHeader"></h1>
+                        <div id="weatherMain">
+                            <div id="temperature"></div>
+                            <div id="weatherDescriptionHeader"></div>
+                            <div id="windSpeed"></div>
+                            <div id="humidity"></div>
+                            <div id="documentIconImg"></div>
+                        </div>
+                    </div>
+                </div>
+                <script src="script.js"></script>
+        </body>
+</html>
